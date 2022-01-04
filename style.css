@@ -1,0 +1,28 @@
+* {
+    margin: 5px;
+}
+.nome {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.ficha {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 10px;
+}
+.foto img{    
+    width: 300px;
+    height: 350px;
+    float: right;
+    margin-right: 300px;
+}
+.objetivo{
+    margin: 10px;
+}
+.habilidades{
+    margin: 10px;
+}
+.extras{
+    margin: 10px;
+}
