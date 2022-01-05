@@ -11,17 +11,54 @@ div{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-align: center;
-    padding: 50px;
+    padding-top: 10px;
 }
-.menu{
-    color: blanchedalmond;
+/*aside {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+}*/
+aside {
     float: right;
-    
 }
-nav {
-    font-size: 300%;
-    
+.menu img{
+    width: 30px;
+    height: 30px;
+    float: right;
 }
+#menu-opener {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#menu-area {
+    width: 0px;
+    height: 60vh;
+    background-color: #CCC;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all ease .5s;
+}
+#menu-area ul, #menu-area li {
+    padding: 0;
+    list-style: none;
+}
+#menu-area li {
+    display: block;
+    padding: 10px;
+    color: #555;
+    cursor: pointer;
+}
+#menu-area li:hover{
+    background-color: #DDD;
+}
+.menu-opened {
+    width:200px !important
+}*/
 .ficha {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -31,9 +68,7 @@ nav {
     width: 300px;
     height: 350px;
     float: right;
-    position: relative;
-    margin-right: 50px;
-    padding-bottom: 100px;
+    margin: 100px;
 }
 .objetivo{
     margin: 50px;
