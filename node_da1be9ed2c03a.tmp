@@ -2,7 +2,7 @@
     margin: 10px;
 }
 body {
-    background-color: rgba(31, 31, 31, 0.897);
+    background-color: black;
 }
 div{
     color: blanchedalmond;
@@ -13,14 +13,13 @@ div{
     text-align: center;
     padding: 50px;
 }
-.menu{
+nav{
     color: blanchedalmond;
+    display: flexbox;
+    flex: 1;
     float: right;
-    
-}
-nav {
-    font-size: 300%;
-    
+    width: 30%;
+    height: 50%;
 }
 .ficha {
     font-family: Arial, Helvetica, sans-serif;
